@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a6c5c9baa3804f49ce20fda1e624dc3a",
+    "packages": [
+        {
+            "name": "davidpeach/laravel-base-command",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/davidpeach/laravel-base-command.git",
+                "reference": "f800bcffa4d261e6033ee0c051314b3888a5d7f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/davidpeach/laravel-base-command/zipball/f800bcffa4d261e6033ee0c051314b3888a5d7f8",
+                "reference": "f800bcffa4d261e6033ee0c051314b3888a5d7f8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.21",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DavidPeach\\BaseCommand\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Peach",
+                    "email": "mail@davidpeach.co.uk"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/davidpeach/laravel-base-command/issues",
+                "source": "https://github.com/davidpeach/laravel-base-command/tree/v1.0.0"
+            },
+            "time": "2021-11-24T15:25:55+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

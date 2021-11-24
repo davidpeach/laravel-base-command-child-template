@@ -1,0 +1,28 @@
+{
+    "name": "davidpeach/laravel-base-command-child-template",
+    "description": "Default description set by Manuscript",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DavidPeach\\LaravelBaseCommandChildTemplate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Peach",
+            "email": "mail@davidpeach.co.uk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "davidpeach/laravel-base-command": "^1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DavidPeach\\LaravelBaseCommandChildTemplate\\LaravelBaseCommandChildTemplateServiceProvider"
+            ]
+        }
+    }
+}
